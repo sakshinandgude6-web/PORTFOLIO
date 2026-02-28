@@ -48,6 +48,42 @@ function Projects() {
       <div style={styles.container}>
         <h2 style={styles.heading}>Projects</h2>
 
+        {/* E-Commerce Backend System */}
+<div style={styles.card}>
+  <div style={styles.title}>E-Commerce Backend System</div>
+  <div style={styles.duration}>Feb 2026 – March 2026</div>
+
+  <ul style={styles.list}>
+    <li>
+      Designed and developed a secure RESTful backend using Java and Spring Boot
+      following layered architecture (Controller–Service–Repository).
+    </li>
+    <li>
+      Implemented JWT-based authentication and role-based access control (RBAC)
+      to manage user authorization and protected routes.
+    </li>
+    <li>
+      Architected relational database schema using PostgreSQL to support user
+      management, order workflows, and transaction processing.
+    </li>
+    <li>
+      Deployed production-ready backend on AWS EC2 with PostgreSQL RDS integration.
+    </li>
+  </ul>
+
+  <p style={{ marginTop: "10px" }}>
+    🔗{" "}
+    <a
+      href="https://github.com/sakshinandgude6-web/E-Commerce-Platform"
+      target="_blank"
+      rel="noreferrer"
+      style={styles.link}
+    >
+      View on GitHub
+    </a>
+  </p>
+</div>
+
         {/* URL Shortener */}
         <div style={styles.card}>
           <div style={styles.title}>URL Shortener Web Application</div>

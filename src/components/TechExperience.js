@@ -45,43 +45,73 @@ function TechExperience() {
   };
 
   return (
-    <section style={styles.section} id="tech-experience">
-      <div style={styles.container}>
-        <h2 style={styles.heading}>Technical Experience</h2>
+   <section style={styles.section} id="tech-experience">
+  <div style={styles.container}>
+    <h2 style={styles.heading}>Technical Experience</h2>
 
-        {/* Citi Simulation */}
-        <div style={styles.card}>
-          <div style={styles.title}>
-            Citi ICG Technology Software Development Job Simulation
-          </div>
-          <div style={styles.org}>Forage | February 2026</div>
+    {/* Agentic AI Intern */}
+    <div style={styles.card}>
+      <div style={styles.title}>Agentic AI Intern</div>
+      <div style={styles.org}>Innomatics Research Labs | Feb 2026 – Present</div>
 
-          <ul style={styles.list}>
-            <li>
-              Created a detailed state diagram of the loan management process
-              using Unified Modeling Language (UML) to model system behavior and
-              workflow transitions.
-            </li>
-            <li>
-              Developed a Java-based internal tool to visualize stock market
-              risk in real time, demonstrating understanding of financial data
-              modeling and system design principles.
-            </li>
-          </ul>
-        </div>
+      <ul style={styles.list}>
+        <li>
+          Designed and implemented backend APIs integrating LLM-based reasoning
+          with structured relational databases.
+        </li>
+        <li>
+          Contributed to backend architecture discussions and feature planning
+          within an agile development environment.
+        </li>
+        <li>
+          Deployed scalable backend services on AWS infrastructure.
+        </li>
+      </ul>
+    </div>
 
-        {/* You can keep your other experiences below */}
+    {/* Backend Engineering Focus */}
+    <div style={styles.card}>
+      <div style={styles.title}>Backend Engineering & System Design</div>
 
-        <div style={styles.card}>
-          <div style={styles.title}>Full Stack Development Projects</div>
-          <p style={styles.text}>
-            Designed and deployed secure web applications using React, Node.js,
-            Express, RESTful APIs, and cloud deployment platforms such as Render
-            and Vercel.
-          </p>
-        </div>
+      <ul style={styles.list}>
+        <li>
+          Designed secure RESTful services using Java and Spring Boot following
+          layered architecture (Controller–Service–Repository).
+        </li>
+        <li>
+          Implemented JWT-based authentication and role-based access control
+          (RBAC) for protected routes and secure API access.
+        </li>
+        <li>
+          Architected PostgreSQL schemas supporting user workflows and
+          transaction-style operations.
+        </li>
+        <li>
+          Deployed production-ready services on AWS EC2 with RDS integration.
+        </li>
+      </ul>
+    </div>
+
+    {/* Citi Simulation */}
+    <div style={styles.card}>
+      <div style={styles.title}>
+        Citi ICG Technology – Software Development Simulation
       </div>
-    </section>
+      <div style={styles.org}>Forage | February 2026</div>
+
+      <ul style={styles.list}>
+        <li>
+          Modeled loan lifecycle workflows using UML state diagrams to
+          represent system behavior and transition states.
+        </li>
+        <li>
+          Produced technical documentation and API usage examples to simulate
+          backend service design within financial systems.
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
   );
 }
 
